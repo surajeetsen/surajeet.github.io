@@ -1,40 +1,81 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Surajeet Sen</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.parallax {
-    /* The image used */
-    background-image: url("images/cover.png");
+  <head>
+    <title>Surajeet Sen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <style>
 
-    -webkit-filter: blur(1px);
-  	-moz-filter: blur(1px);
-  	-o-filter: blur(1px);
-  	-ms-filter: blur(1px);
-  	filter: blur(1px);
+      	.parallax {
+          	background-image: url("images/cover.png");
 
-    /* Set a specific height */
-    min-height: 1000px; 
+	        /*-webkit-filter: blur(2px);
+			-moz-filter: blur(2px);
+	        -o-filter: blur(2px);
+	        -ms-filter: blur(2px);
+	        filter: blur(2px);*/
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-</style>
-</head>
-<body>
+	        /* Create the parallax scrolling effect */
+	        background-attachment: fixed;
+	        background-position: center;
+	        background-repeat: no-repeat;
 
-<div class="parallax">
-	
+	        min-height: 100vh;
+    		background-size: 100vw;
+	      }
 
-</div>
+	      .no-padding {
+			    padding:0.5;
+		  }
 
-<!-- <div style="height:1000px;background-color:black;font-size:36px">
+		  .parallax h1 {
+		  	  font-size: 50px;
+		  	  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  width: 400px;
+			  height: 200px;
+			  margin-left: -200px;
+			  margin-top: -29px;
+		  }
+    </style>
+  </head>
 
-</div> -->
+  <body>
 
-</body>
+
+    <div class="container-fluid no-padding">
+    	<div class="parallax">
+    		<h1 style="text-align: center; color: white">Surajeet Sen</h1>
+    		<br />
+    		<p style="text-align: center; color: white">Work in progress!</p>
+    	</div>
+
+    	<div class="row">
+    		<div class="col-md-4" style="al">
+    			<img src="images/me.png" height=70% width=50% class="img-responsive" style="margin: 0 auto; padding: 10px">
+    		</div>
+    		<div class="col-md-8">
+    			<h2>Profile</h2>
+    			<ul>
+    				<li>Software Developer having 5 years of experience in developing multi-tier applications.</li>
+    				<br />
+					<li>Experience in Iterative Waterfall and Agile (Scrum) software development methodology.</li>
+					<br />
+					<li>Extensive experience in Object Oriented Programming, design and development.</li>
+					<br />
+					<li>Have good knowledge on Data Structures and Algorithms.</li>
+    			</ul>
+    		</div>
+    	</div>
+    	<div class="row">
+
+    	</div>
+    </div>
+
+    <!-- <div style="height:1000px;background-color:gray;font-size:36px">
+
+    </div> -->
+
+  </body>
 </html>
